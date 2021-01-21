@@ -124,29 +124,50 @@ public class SyntaxLecture {
 
         String myName = "Casey";
         System.out.println(myName.charAt(0));
+        System.out.println((myName.offsetByCodePoints(0, 3)));
 
 
         // ================== VARIABLES (s-8)
 
         // declaration separate from initialization
+    int faveNumber =42;
+
 
         // declaration and initialization
 
         // ================== IDENTIFIERS AND KEYWORDS (s-9)
 
+        if is a reserved word
+
         // see curriculum
+
+
+
 
         // ================== CONSTANTS (s-10)
 
+        final double CIV_MAX_DOLLARS = 2147483647;
         // see curriculum
 
         // ================== EXPRESSIONS (s-11)
+
+        int firstValue = 97;
+        int secondValue = 99;
+
+        int sumOfValues = firstValue + secondValue;
+        int deltaValues = firstValue - secondValue;
+        int product = firstValue * secondValue;
+        int quotient = firstValue / secondValue;
+
+
 
         // basically the same as JS
 
         // ================== OPERATORS (s-12)
 
         // basically the same as JS
+
+        intReverseNumber = -72
 
         // ================== ASSIGNMENT STATEMENTS (s-13)
 
@@ -159,7 +180,13 @@ public class SyntaxLecture {
 
         // IMPLICIT
 
+        short x = 8;
+        int v = x;
+
         // EXPLICIT
+
+        int civDollars = 2099999;
+
 
         // implicit casting - less to more precise (widening)
 
