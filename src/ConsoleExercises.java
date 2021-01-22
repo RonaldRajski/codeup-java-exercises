@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class ConsoleExercises {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
         double pi = 3.14159;
-        System.out.format("\nThe value of pi is approximately %f.\n", pi);
+        System.out.format("\nThe value of pi is approximately %.2f.\n", pi);
 
+
+
+
+        Scanner scanner = new Scanner(System.in);
 //        1.Prompt a user to enter a integer and store that value in an int variable using the nextInt method.
 
         int i = 0;
@@ -41,6 +43,73 @@ public class ConsoleExercises {
 //                What happens if you enter more than 3 words?
 //                Does not recognize the 4th word.
 
+//       3. Prompt a user to enter a sentence, then store that sentence in a String variable using the next method. Then, display that sentence back to the user.
+
+        String sentence;
+
+        System.out.println("Enter a sentence: ");
+
+        scanner.useDelimiter("\n");
+////        need delimiter other wise scanner .next() only grabs the first line
+//
+        sentence = scanner.next();
+//        sentence = scanner.nextLine();
+
+        System.out.printf("\n Your sentence is: \"%s\".\n", sentence);
+
+//        System.out.println("You entered: ");
+//        System.out.println(sentence);
+//
+//        do you capture all the words? yes using a  delimeter
+
+
+//        4. Rewrite the above example using the nextLine method.
+
+        String sentence2;
+
+        System.out.println("Enter a second sentence: ");
+//        scanner.useDelimiter("\n"); // acts as next line between scanners
+//        sentence = scanner.next(); //only returns first word UNLESS using delimiter
+        sentence2 = scanner.nextLine(); // does not need delimiter
+        System.out.println("The second sentence you entered: ");
+        System.out.println(sentence2);
+
+
+//        Prompt the user to enter values of length and width of a classroom at Codeup.
+//
+//                Use the nextLine method to get user input and parse the resulting string to a numeric type.
+//
+//        Assume that the rooms are perfect rectangles.
+//                Assume that the user will enter valid numeric data for length and width.
+//                Display the area and perimeter of that classroom.
+//
+//                The area of a rectangle is equal to the length times the width, and the perimeter of a rectangle is equal to 2 times the length plus 2 times the width.
+
+//        double length;
+//        double width;
+//        double height;
+//        System.out.println("Find the area and perimeter...");
+//        System.out.println("Enter a lenght, width and height.  Do not put in units.");
+//        length = scanner.nextDouble();
+//        scanner.useDelimiter("\n");
+//            length = Double.parseDouble(length);
+//        width = scanner.nextDouble();
+//        scanner.useDelimiter("\n");
+//        width = Double.parseDouble(width);
+//        height = scanner.nextDouble();
+//        scanner.useDelimiter("\n");
+//        height = Double.parseDouble(height);
+//        System.out.println("The area is: ");
+//        System.out.println(length * width);
+//        System.out.println("The perimeter is: ");
+//        System.out.println(2* length + 2 * width);
+//        System.out.println("The volume is: ");
+//        System.out.println(length * width * height);
+
+
+
+
+
 
 
 
@@ -51,10 +120,6 @@ public class ConsoleExercises {
 
 
 
-//        Exploring the Scanner class
 
-//        Prompt a user to enter a integer and store that value in an int variable using the nextInt method.
-
-//        What happens if you input something that is not an integer?
 
 
