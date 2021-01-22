@@ -78,18 +78,25 @@ public class HelloWorld {
 //        y *=  x;
 //        System.out.println(y);
 
-        int x = 10;
-        int y = 2;
-        x /= y;
-        y -= x;
-        System.out.println(x);
-        System.out.println(y);
+//        int x = 10;
+//        int y = 2;
+//        x /= y;
+//        y -= x;
+//        System.out.println(x);
+//        System.out.println(y);
+//
+//
+//        int bigNumber = Integer.MAX_VALUE;
+//        System.out.println(++bigNumber);
 
+        double pi = 3.14159;
+        System.out.format("\nThe value of pi is approximately %f.\n", pi);
 
-        int bigNumber = Integer.MAX_VALUE;
-        System.out.println(++bigNumber);
+//        Exploring the Scanner class
 
+//        Prompt a user to enter a integer and store that value in an int variable using the nextInt method.
 
+//        What happens if you input something that is not an integer?
 
     }
 }
