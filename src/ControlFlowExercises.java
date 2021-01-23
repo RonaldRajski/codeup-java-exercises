@@ -7,7 +7,7 @@ public class ControlFlowExercises {
 
         int i = 5;
         while (i < 16){
-            System.out.println("i is" + i);
+            System.out.println( i);
             i++;
         }
 
