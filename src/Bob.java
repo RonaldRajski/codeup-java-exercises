@@ -28,5 +28,26 @@ public class Bob {
 
         } while (userInput.equals("yes"));
 
+//        System.out.println("What will you say to Bob?");
+//        String userResponse = scanner.nextLine().trim();
+//
+//        if(userResponse.endsWith("?")){
+//            System.out.println("Sure");
+//        }
+//        else if(userResponse.endsWith("!")) {
+//                System.out.println("Chill dude!");
+//            }
+//        else if (userResponse.isEmpty()){
+//            System.out.println("Fine! Be that Way!");
+//        }
+//        else{
+//            System.out.println("Whatever!");
+//        }
+
+
+
+
     }
 }
+
+
