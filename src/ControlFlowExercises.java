@@ -87,33 +87,57 @@ public class ControlFlowExercises {
 //        }
 
 //        int i;
-//        String userInput;
-//        int baseInt;
-//        int maxInt;
+        boolean userSaysContinue = false;
+////
 //        do {
-//            System.out.println("Enter an integer.");
-//            baseInt = scan.nextInt();
-            System.out.println("What number would you like to go up to?");
-            int input = scanner.nextInt();
-        System.out.println("\nHere is the number you entered!\n ");
-            System.out.print("number | squared | cubed\n" +
-                    "------ | ------- | ---\n");
-            for (int p = 1; p <= input; p++){
-                System.out.printf("%-6d | %-7d | %-5d%n", p, p*p, p*p*p);
-//                System.out.print(p + " ");
-//                System.out.print(p*p + " ");
-//                System.out.println(p*p*p);
+//
+//            System.out.println("What number would you like to go up to?");
+//            int input = scanner.nextInt();
+//        System.out.println("\nHere is the number you entered!\n ");
+//            System.out.print("number | squared | cubed\n" +
+//                    "------ | ------- | ---\n");
+//            for (int p = 1; p <= input; p++){
+//                System.out.printf("%-6d | %-7d | %-5d%n", p, p*p, p*p*p);
+////
+////
+////
+////
+//        }
+//            System.out.println("\nWould you like to continue? [true/flase]");
+//            userSaysContinue= scanner.nextBoolean();
+//        } while (userSaysContinue);
 
-//              System.out.print(i + "\t| " + (i * i) + "\t| " + (i * i * i) + "\n");
+        do{
+
+        System.out.println("What is the numerical grade? (0-100)");
+        int grade = scanner.nextInt();
+        if(grade >= 88 && grade <101){
+            System.out.println("A");
         }
-//            System.out.println("\nWould you like to continue? [yes/no]");
-//            userInput = scan.next();
-//            ++i;
-//        } while (userInput.equals("yes"));
+        else if(grade >= 80 && grade <=87){
+            System.out.println("B");
+        }
+        else if(grade >= 70 && grade <=79){
+            System.out.println("C");
+        }
+        else if(grade >= 60 && grade<= 66){
+            System.out.println("D");
+        }
+        else if(grade >= 0 && grade <= 59){
+            System.out.println("F");
+        }
+        else{
+            System.out.println("Invalid Number");
+        }
+        System.out.println("\nWould you like to continue? [true/flase]");
+            userSaysContinue= scanner.nextBoolean();
+        } while (userSaysContinue);
 
 
-  }
-          }
+
+
+     }
+}
 
 
 
