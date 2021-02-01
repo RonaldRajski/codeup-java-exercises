@@ -48,6 +48,7 @@ public class Person{
         will.sayHello();
     }
     public Person (String nameInput) {
+
         this.name = nameInput;
     }
         public String getName(){
@@ -55,13 +56,16 @@ public class Person{
         return this.name;
         }
 
-        public void setName(String inputName){
-        this.name = inputName;
-//TODO: change the name property to the passed value
+        public void setName(String inputName) {
+            //TODO: change the name property to the passed value
+            this.name = inputName;
         }
+
+
         public void sayHello(){
+            //TODO: print a message to the console using the person's name
             System.out.println("Hello, " + this.name + ". " + this.age + " is old:(");
-//TODO: print a message to the console using the person's name
+
         }
 
 
