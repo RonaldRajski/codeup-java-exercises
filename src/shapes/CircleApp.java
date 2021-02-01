@@ -9,6 +9,7 @@ public class CircleApp {
             Circle circle = new Circle(radius);
             System.out.println("Area: " + circle.getArea());
             System.out.println("Circumference: " + circle.getCircumference());
+//        } while (Input.yesNo("\nWould you like to create another circle? "));
         } while (input.yesNo("\nWould you like to create another circle? "));
         Circle.circleStatistics();
 
