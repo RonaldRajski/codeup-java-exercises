@@ -7,5 +7,11 @@ public class Car {
     private String engine;
     private String color;
 
+//    Create a method
+
+    public void setModel(String model){
+        this.model = model;
+
+    }
 
 }
