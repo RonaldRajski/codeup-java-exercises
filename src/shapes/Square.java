@@ -2,13 +2,18 @@ package shapes;
 
 public class Square extends Rectangle {
 
-    Square (double length, double width) {
-        this.length = length;
-        this.width = width;
+    public Square (double side) {
+        super(side, side);
     }
-    Square (double lengthSide) {
-        this.length = lengthSide;
-        this.width = lengthSide;
+    @Override
+
+    public double getArea(){
+        return Math.pow(this.length, 2);
+    }
+    @Override
+    public double getPerimeter(){
+//        System.out.println("Square Perimeter");
+        return 4 * this.width;
     }
 
 }
