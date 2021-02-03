@@ -1,5 +1,7 @@
 package JavaProgramingMasterclass;
 
+import java.util.Locale;
+
 public class Car {
     private int doors;
     private int wheels;
@@ -9,9 +11,18 @@ public class Car {
 
 //    Create a method
 
-    public void setModel(String model){
-        this.model = model;
+    public void setModel(String model) {
+        String validModel = model.toLowerCase();
+        if (validModel.equals("carrera") || validModel.equals("commodore")) {
+            this.model = model;
+        }
+        else{
+            this.model = "unknown";
+        }
+    }
+        public String getModel () {
+            return this.model;
+        }
 
     }
 
-}
