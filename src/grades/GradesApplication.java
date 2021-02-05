@@ -49,19 +49,34 @@ public class GradesApplication {
         students.put("Marcellus", marcellus);
         allGrades.add(3,marcellusGrades);
 
+        ArrayList<Double> miaGrades = new ArrayList<>();
+        miaGrades.add(50.);
+        miaGrades.add(50.);
+        miaGrades.add(50.);
+        miaGrades.add(50.);
+        Student mia = new Student("\"Boss's lady\" Mia \"They talk a lot don't they\" Wallace", miaGrades, "shake");
+        students.put("Mia", mia);
+        allGrades.add(3,miaGrades);
+
 //        TERMINAL SCANNER ---------->
         Scanner scanner = new Scanner(System.in);
         System.out.println("It is not just fiction, it is Pulp Fiction");
         System.out.println("..Welcome to Quentin Land..");
         System.out.println("Below are a list of usernames:");
-        System.out.println("| " + students.get("Marcellus").getGitHubName() + " | " + students.get("Jules").getGitHubName() + " | " + students.get("Winston").getGitHubName() + "| " + students.get("Vincent").getGitHubName());
+        System.out.println("| " + students.get("Marcellus").getGitHubName() + " | " + students.get("Jules").getGitHubName() + " | " + students.get("Winston").getGitHubName() + "| " + students.get("Vincent").getGitHubName() + " | " + students.get("Mia").getGitHubName());
         System.out.println("Enter one of the usernames to find out more about that Mobster or enter \"All\" to view the class average: ");
         String userInput = scanner.nextLine();
         while (true) {
-            if(userInput.toLowerCase().equals("all")){
+            if(userInput.equalsIgnoreCase("all")){
                 System.out.println("The class average is: " + allGrades);
             }
-            if (userInput.toLowerCase().equals("briefcase")) {
+
+
+
+
+
+
+            if (userInput.equalsIgnoreCase("briefcase")) {
                 System.out.println("You have selected: " + students.get("Marcellus").getName() + "!");
                 System.out.println("His grades were: " + students.get("Marcellus").getGrades(marcellusGrades));
                 System.out.println("His gpa was: " + students.get("Marcellus").getGradeAverage(marcellusGrades));
@@ -85,7 +100,7 @@ public class GradesApplication {
                     main(args);
                 }
             }
-            if (userInput.toLowerCase().equals("badmf")) {
+            if (userInput.equalsIgnoreCase("badmf")) {
                 System.out.println("You have selected: " + students.get("Jules").getName() + "!");
                 System.out.println("His grades were: " + students.get("Jules").getGrades(julesGrades));
                 System.out.println("His gpa was: " + students.get("Jules").getGradeAverage(julesGrades));
@@ -109,7 +124,7 @@ public class GradesApplication {
                     main(args);
                 }
             }
-            if (userInput.toLowerCase().equals("oakfurniture")) {
+            if (userInput.equalsIgnoreCase("oakfurniture")) {
                 System.out.println("You have selected: " + students.get("Winston").getName() + "!");
                 System.out.println("His grades were: " + students.get("Winston").getGrades(winstonGrades));
                 System.out.println("His gpa was: " + students.get("Winston").getGradeAverage(winstonGrades));
@@ -133,7 +148,7 @@ public class GradesApplication {
                     main(args);
                 }
             }
-            if (userInput.toLowerCase().equals("royalewithcheese")) {
+            if (userInput.equalsIgnoreCase("royalewithcheese")) {
                 System.out.println("You have selected: " + students.get("Vincent").getName() + "!");
                 System.out.println("His grades were: " + students.get("Vincent").getGrades(vincentGrades));
                 System.out.println("His gpa was: " + students.get("Vincent").getGradeAverage(vincentGrades));
@@ -156,6 +171,31 @@ public class GradesApplication {
                 } else {
                     main(args);
                 }
+            }
+            if (userInput.equalsIgnoreCase("shake")) {
+                System.out.println("You have selected: " + students.get("Mia").getName() + " ! ");
+                System.out.println("Her grades were: " + students.get("Mia").getGrades(miaGrades));
+                System.out.println("Her gpa was: " + students.get("Mia").getGradeAverage(miaGrades));
+                System.out.println("It was a teenage wedding and the old folks wished them well...\n");
+                System.out.println("Would you like to see another mobster? Yes or No:");
+                String userInput2 = scanner.nextLine();
+                if (userInput2.toLowerCase().startsWith("n")) {
+                    System.out.println("Ezekiel 25:17\n" +
+                            "The path of the righteous man is beset on all sides\n" +
+                            "By the inequities of the selfish and the tyranny of evil men\n" +
+                            "Blessed is he who, in the name of charity and good will\n" +
+                            "Shepherds the weak through the valley of darkness\n" +
+                            "For he is truly his brother's keeper and the finder of lost children\n" +
+                            "And I will strike down upon thee\n" +
+                            "With great vengeance and furious anger\n" +
+                            "Those who attempt to poison and destroy my brothers\n" +
+                            "And you will know my name is the Lord\n" +
+                            "When I lay my vengeance upon thee");
+                    return;
+                } else {
+                    main(args);
+                }
+
             } else {
                 System.out.println("Sorry, I don't recognize that username...please try again:\n");
                 main(args);
