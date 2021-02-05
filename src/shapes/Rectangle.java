@@ -8,12 +8,12 @@ package shapes;
 
         @Override
         protected double setLength(double length) {
-            return length;
+            return this.length;
         }
 
         @Override
         protected double setWidth(double width) {
-            return width;
+            return this.width;
         }
 
         @Override
