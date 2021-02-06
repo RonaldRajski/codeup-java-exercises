@@ -7,7 +7,7 @@ public class Housecat extends Animal{
     String move(){
         return "Leaps on keyboard";
     }
-    String makeNoise(){
-        return meow;
-    }
+//    String makeNoise(){
+////        return meow;
+//    }
 }
