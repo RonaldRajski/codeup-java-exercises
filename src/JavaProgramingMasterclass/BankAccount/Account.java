@@ -22,7 +22,9 @@ public class Account {
 
     }
 
-
+    public Account(String customerName, String customerEmailAddress, String customerPhoneNumber) {
+        this("9999",100.55, customerName, customerEmailAddress,customerPhoneNumber );
+    }
 
     public void deposit(double depositAmount){
         this.balance += depositAmount;
