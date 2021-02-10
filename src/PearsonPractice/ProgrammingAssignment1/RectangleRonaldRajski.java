@@ -14,9 +14,6 @@ package PearsonPractice.ProgrammingAssignment1;
 //        37.0
 
 
-
-
-
 public class RectangleRonaldRajski {
 
     public static void main(String args[]) {
