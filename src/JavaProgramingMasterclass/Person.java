@@ -1,6 +1,8 @@
 package JavaProgramingMasterclass;
 
-public class Person {
+import practiceTestBonus.Greeter;
+
+public abstract class Person implements Greeter {
 
     private String firstName;
     private String lastName;
