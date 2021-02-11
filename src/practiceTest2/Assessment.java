@@ -38,7 +38,7 @@ public class Assessment {
         double d = 2.2;
         int[] array = {1,2,3,4};
         ArrayList<User> user = new ArrayList<>();
-        user.add(new User("cory","imel",true));
+        user.add(new User("ron","ski",true));
         System.out.println(user.get(0).sayHello());
         capitalizeRecords(user);
         System.out.println(user.get(0).sayHello());
