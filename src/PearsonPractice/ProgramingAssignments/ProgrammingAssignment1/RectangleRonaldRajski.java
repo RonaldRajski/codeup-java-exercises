@@ -1,4 +1,4 @@
-package PearsonPractice.ProgrammingAssignment1;
+package PearsonPractice.ProgramingAssignments.ProgrammingAssignment1;
 
 
 //Ronald Rajski

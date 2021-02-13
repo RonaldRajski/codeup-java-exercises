@@ -1,4 +1,4 @@
-package PearsonPractice.ProgrammingAssignment2;
+package PearsonPractice.ProgramingAssignments.ProgrammingAssignment1.ProgrammingAssignment2;
 
 public class Main {
     public static void main(String[] args) {

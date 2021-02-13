@@ -1,4 +1,4 @@
-package PearsonPractice;
+package PearsonPractice.Chapter2;
 
 public class ShowCurrentTime2_7 {
     public static void main(String[] args) {

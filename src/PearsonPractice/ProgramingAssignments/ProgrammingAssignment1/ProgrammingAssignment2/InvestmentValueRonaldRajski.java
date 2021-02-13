@@ -1,7 +1,6 @@
-package PearsonPractice.ProgrammingAssignment2;
+package PearsonPractice.ProgramingAssignments.ProgrammingAssignment1.ProgrammingAssignment2;
 
 import java.util.Scanner;
-import java.text.NumberFormat;
 
 public class InvestmentValueRonaldRajski {
 

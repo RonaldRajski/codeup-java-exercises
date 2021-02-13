@@ -1,4 +1,4 @@
-package PearsonPractice;
+package PearsonPractice.Chapter3;
 import java.util.Scanner;
 
 public class SimpleIfDemo3_2 {
