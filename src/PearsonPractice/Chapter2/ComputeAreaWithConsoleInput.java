@@ -1,4 +1,4 @@
-package PearsonPractice;
+package PearsonPractice.Chapter2;
 
 import javax.sound.midi.Soundbank;
 import java.util.Scanner;

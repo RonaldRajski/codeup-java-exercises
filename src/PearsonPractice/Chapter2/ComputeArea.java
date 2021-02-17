@@ -1,4 +1,4 @@
-package PearsonPractice;
+package PearsonPractice.Chapter2;
 import java.util.Scanner;
 
 public class ComputeArea {

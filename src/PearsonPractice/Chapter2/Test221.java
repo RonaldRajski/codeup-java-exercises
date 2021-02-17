@@ -1,4 +1,4 @@
-package PearsonPractice;
+package PearsonPractice.Chapter2;
 
 public class Test221 {
     public static void main(String[] args){
