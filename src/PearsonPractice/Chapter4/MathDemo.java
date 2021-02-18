@@ -26,5 +26,17 @@ public class MathDemo {
        System.out.println((int) (1 + Math.random()*10));
 
 
+        System.out.println(Math.rint(-2.5));
+        System.out.println(Math.ceil(-2.5));
+        System.out.println(Math.floor(-2.5));
+        System.out.println(Math.round(-2.5f));
+        System.out.println(Math.round(-2.5));
+        System.out.println(Math.rint(2.5));
+        System.out.println(Math.ceil(2.5));
+        System.out.println(Math.floor(2.5));
+        System.out.println(Math.round(2.5f));
+        System.out.println(Math.round(2.5));
+
+
     }
 }
