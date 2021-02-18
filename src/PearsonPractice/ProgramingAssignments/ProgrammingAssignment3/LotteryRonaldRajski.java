@@ -1,6 +1,26 @@
 package PearsonPractice.ProgramingAssignments.ProgrammingAssignment3;
 
-import java.util.Random;
+
+//Ronald Rajski
+//COSC 1336
+//        Instructor: Dr. Doerschuk
+//        Programming Assignment 3
+//        Due:  2/24/2021
+
+
+//Revise Listing 3.8, Lottery.java, to generate a lottery of a three-digit integer.  The program prompts the user to enter a three-digit integer and determines whether the user wins according to the following rules:
+//        •	If the user input matches the lottery number in the exact order, the award is $10,000.
+//        •	If all digits in the user input match all digits in the lottery number, the award is $3000.
+//        •	If one digit in the user input matches a digit in the lottery number, the award is $1000.
+//        Your program’s output should look like the sample shown below.  Green text represents information entered by the user.  Black text is produced by the program.
+//        Enter your lottery pick (three digits): 768
+//        Lottery is 723
+//        Match one digit: you win $1,000
+
+
+
+
+
 import java.util.Scanner;
 
 public class LotteryRonaldRajski {
@@ -43,7 +63,7 @@ public class LotteryRonaldRajski {
 
             else if(guessDigit1 == lotteryDigit1
                     || guessDigit1 == lotteryDigit2
-                    || guessDigit2 == lotteryDigit3
+                    || guessDigit1 == lotteryDigit3
 
                     || guessDigit2 == lotteryDigit1
                     || guessDigit2 == lotteryDigit2
