@@ -13,8 +13,6 @@ public class Vehicle {
 
         this.currentVelocity=0;
         this.currentDirection=0;
-
-
     }
 
     public void steer(int direction){
@@ -59,4 +57,10 @@ public class Vehicle {
     public void setCurrentDirection(int currentDirection) {
         this.currentDirection = currentDirection;
     }
+
+    public void stop(){
+        this.currentVelocity = 0;
+
+    }
+
 }
