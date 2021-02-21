@@ -1,6 +1,4 @@
 package PearsonPractice.ProgramingAssignments.ProgrammingAssignment3;
-
-
 //Ronald Rajski
 //COSC 1336
 //        Instructor: Dr. Doerschuk
@@ -17,14 +15,9 @@ package PearsonPractice.ProgramingAssignments.ProgrammingAssignment3;
 //        Lottery is 723
 //        Match one digit: you win $1,000
 
-
-
-
-
 import java.util.Scanner;
 
 public class LotteryRonaldRajski {
-
 
         public static void main(String[] args) {
             int lottery = (int)(Math.random()*1000);
@@ -58,9 +51,6 @@ public class LotteryRonaldRajski {
                     && guessDigit1 == lotteryDigit3)
                 System.out.println("You matched two numbers, and won $3,000!");
 
-
-
-
             else if(guessDigit1 == lotteryDigit1
                     || guessDigit1 == lotteryDigit2
                     || guessDigit1 == lotteryDigit3
@@ -78,13 +68,3 @@ public class LotteryRonaldRajski {
 
         }
     }
-
-
-
-
-
-
-
-
-
-
