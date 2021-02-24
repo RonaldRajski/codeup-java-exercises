@@ -29,6 +29,31 @@ public class SampleQuestions {
 //            }
 //
 //        }
+//        System.out.println("Here\"we\\go!");
+
+//        String s = "hello";
+//        System.out.println(s.toUpperCase());//HELLO
+
+//        System.out.println(true && false || true); true
+
+//        double m =2.2;
+//        int n = 8;
+//        double o = m*n;
+//        System.out.println(o); //17.6
+
+//        Question 8
+//        int p= 10, q= 15, r=0;
+//        if (p*q>100)
+//            r=p*q;
+//        if(r<=150)
+//            p=0;
+//        System.out.println(p+" " + q + " " + r);//0 15 150
+
+
+
+
+
+
     }
 
 }
