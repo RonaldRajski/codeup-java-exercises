@@ -1,4 +1,4 @@
 package PearsonPractice.Chapter5;
 
-public class GuessNumberOneTime {
+public class GuessNumber5_3 {
 }
