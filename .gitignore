@@ -8,12 +8,12 @@
 # Compiled output
 *.class
 out/*
-/src/practiceTest2/
-/src/practiceTest/
+/src/practice2/
+/src/practice1/
 
-/src/practiceTestBonus/
+/src/practice3/
 
-src/PearsonPractice
-src/practiceTest
-src/practiceTest2
+src/Practice4
+src/practice1
+src/practice2
 

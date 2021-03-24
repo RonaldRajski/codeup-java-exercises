@@ -1,6 +1,6 @@
 package JavaProgramingMasterclass;
 
-import practiceTestBonus.Greeter;
+import practice3.Greeter;
 
 public abstract class Person implements Greeter {
 
