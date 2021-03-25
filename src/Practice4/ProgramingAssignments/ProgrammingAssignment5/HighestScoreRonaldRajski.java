@@ -1,12 +1,5 @@
 package Practice4.ProgramingAssignments.ProgrammingAssignment5;
 
-/*
-(Find the two highest scores) Write a program that prompts the user to enter the
-number of students and each student’s name and score, and finally displays the
-student with the highest score and the student with the second-highest score.
-*/
-
-
 //Ronald Rajski
 //        COSC 1336
 //        Instructor: Dr. Doerschuk
@@ -36,21 +29,22 @@ public class HighestScoreRonaldRajski {
 
     public static void main(String[] args) {
         // Create a Scanner
-        Scanner input = new Scanner(System.in);
+            Scanner input = new Scanner(System.in);
 
         // Prompt the user to enter the number of students
-        System.out.print("     Enter the number of students: ");
-        int numberOfStudents = input.nextInt();
+            System.out.print("     Enter the number of students: ");
+            int numberOfStudents = input.nextInt();
 
-        int score, 					// Holds students' score
+
+        double score,  // Holds students' score
                 highest = 0, 			// Highest score
                 secondHigest = 0;	// Second highest score
-        String name = "", 		// Holds students' name
+            String name = "", 		// Holds students' name
                 student1 = "", 	// Highest scoring student name
                 student2 = "";	// Second highest scoring student name
 
-        // Prompt the user to enter each students' name and score
-//        System.out.println("Enter each students' name and score:");
+        // Prompt user to enter each students' name and score
+
         for (int i = 0; i < numberOfStudents; i++) {
             System.out.print("     Enter a student name: ");
             name = input.next();
