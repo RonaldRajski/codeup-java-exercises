@@ -1,10 +1,6 @@
 package Practice4.ProgramingAssignments.ProgrammingAssignment5;
 
-//Ronald Rajski
-//        COSC 1336
-//        Instructor: Dr. Doerschuk
-//        Programming Assignment 5
-//        Due:  March 22, 2021
+
 //Write a program that prompts the user to enter the number of students and each student’s name and score and finally displays the student with the highest score and the student with the second highest score.  Use the next() method in the Scanner class to read a name, rather than using the nextLine() method.  Assume that the number of students is at least 2
 //        Your program’s output should look like that shown in the sample run shown below.  Green text represents information entered by the user.  Black text is produced by the program.
 //        Enter the number of students: 5

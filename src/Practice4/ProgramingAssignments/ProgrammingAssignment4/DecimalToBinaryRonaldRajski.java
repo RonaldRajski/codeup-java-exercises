@@ -1,8 +1,4 @@
-//Ronald Rajski
-//        COSC 1336
-//        Instructor: Dr. Doerschuk
-//        Programming Assignment 4
-//        Due:  3-17-2021
+
 //        Write a program that prompts the user to enter a decimal number between 0 and 15 and displays its corresponding binary value.
 //        Your program’s output should look like that shown in the 2 sample runs shown below.  Green text represents information entered by the user.  Black text is produced by the program.
 //        Enter a decimal number between 0 and 15: 12

@@ -1,9 +1,5 @@
 package Practice4.ProgramingAssignments.ProgrammingAssignment3;
-//Ronald Rajski
-//COSC 1336
-//        Instructor: Dr. Doerschuk
-//        Programming Assignment 3
-//        Due:  2/24/2021
+
 
 
 //Revise Listing 3.8, Lottery.java, to generate a lottery of a three-digit integer.  The program prompts the user to enter a three-digit integer and determines whether the user wins according to the following rules:

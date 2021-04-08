@@ -4,11 +4,7 @@ import java.util.Scanner;
 
 public class InvestmentValueRonaldRajski {
 
-    //Ronald Rajski
-//COSC 1336
-//        Instructor: Dr. Doerschuk
-//        Programming Assignment 2
-//        Due:  2/17/2021
+
 
 //    Write a program that reads in an investment amount, annual interest rate, and number of years and
 //    displays the future investment value using the following formula:
