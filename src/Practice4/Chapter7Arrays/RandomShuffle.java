@@ -34,6 +34,16 @@ public class RandomShuffle {
 //        counter++;
 //    }
 
+//   4.  An array of ints, ar, has been declared and initialized . Write the statements needed to reverse the elements in the array. So, if the elements were originally 5, 13, 4, 97 then after your code executes they would be 97, 4, 13, 5.
+
+//    for (int i = 0; i < (arr.length + 1) / 2; i++) {
+//        int temp = arr[i];
+//        arr[i] = arr[arr.length - i - 1];
+//        arr[arr.length - i - 1] = temp;
+//    }
+
+
+
 
 
 
