@@ -18,15 +18,17 @@ public class Chapter7Arrays {
 //
 //        Write a statement that assigns the value 160000 to the last element of the array salarySteps
 
-        salarySteps[4]=160000;
-        salarySteps[salarySteps.length - 1] = 160000;
+//         Long salarySteps[4]=160000;
+//            Long salarySteps[salarySteps.length - 1] = 160000;
 
 //        Assume that an array of ints named a has been declared with 12 elements. The integer variable k holds a value between 0 and 6. Assign 15 to the array element whose index is k.
-        a[k]=15;
+//        int a[k]=15;
 //
 //        An array of ints named a has been declared with 12 elements. The integer variable k holds a value between 0 and 6. Assign 9 to the element just after a[k].
 
-        a[k+1] = 9;
+//        int a[k+1] = 9;
+
+
 
 
     }
