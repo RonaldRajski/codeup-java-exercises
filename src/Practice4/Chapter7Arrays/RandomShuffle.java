@@ -25,6 +25,17 @@ public class RandomShuffle {
 //        a[a.length - 1 - k] = temp;
 //    }
 
+//   3 Given an array of ints named x and an int variable named total that has already been declared , write code that places the sum of all the elements of the array x into total. Declare any variables that you need.
+
+//    total = 0;
+//    int counter = 0;
+//    while (counter < x.length) {
+//        total = total + x[counter];
+//        counter++;
+//    }
+
+
+
 
 
 
