@@ -18,7 +18,6 @@ package Practice4.ProgramingAssignments.ProgrammingAssignment8;
 //43 56 32 1
 //        The location of the largest element is at (0, 1).
 
-
 import java.util.Scanner;
 
 public class LocateLargestElementRonaldRajski {
@@ -46,7 +45,7 @@ public class LocateLargestElementRonaldRajski {
 
         // Display results
         System.out.println("The location of the largest element is at (" +
-                location[0] + ", " + location[1] + ")");
+                location[0] + ", " + location[1] + ").");
     }
 
     /** locateLargest returns the location of the
