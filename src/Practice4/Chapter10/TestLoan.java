@@ -3,6 +3,7 @@ package Practice4.Chapter10;
 
 import java.util.Scanner;
 
+
 public class TestLoan {
 
         /** Main method */
@@ -24,14 +25,12 @@ public class TestLoan {
             double loanAmount =  input.nextDouble();
 
             // Create Loan object
-            Loan loan =
-                    new Loan(annualInterestRate, numberOfYears, loanAmount);
+            Loan loan = new Loan(annualInterestRate, numberOfYears, loanAmount);
 
+            System.out.println(loan.toString());
             // Display loan date, monthly payment, and total payment
-            System.out.printf("The loan was created on %s\n" +
-                            "The monthly payment is %.2f\nThe total payment is %.2f\n",
-                    loan.getLoanDate().toString(), loan.getMonthlyPayment(),
-                    loan.getTotalPayment());
+            System.out.printf("The loan was created on %s\n" + "The monthly payment is %.2f\nThe total payment is %.2f\n" + loan.getLoanAmount(), loan.getMonthlyPayment() , loan.getTotalPayment());
+
 
     }
 
