@@ -1,7 +1,5 @@
 package Practice4.ProgramingAssignments.ProgrammingAssignment9;
 
-
-
 public class MyRectangleTestRonaldRajski {
     public static void main(String[] args) {
 
@@ -23,6 +21,5 @@ public class MyRectangleTestRonaldRajski {
 //        The perimeter of the rectangle is 78.8
         System.out.println("The perimeter of the rectangle is " + rectangle2.getPerimeter());
 //
-
     }
 }
